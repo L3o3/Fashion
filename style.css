@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial, sans serif;
+}
+#principal {
+    width: 90%;
+    margin: 0 auto;
+}
+.header-top {
+    background-color: rgb(2, 25, 34);
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.header-nav li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 20px;
+}
+.header-nav a {
+    color: rgb(47, 93, 114);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.background {
+    width: 100%;
+}
+.portfolio {
+    width: 80%;
+    margin: 50px auto;
+}
+.portfolio h1 {
+    color: rgb(6, 6, 37);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+.portfolio p {
+    text-align: center;
+    line-height: 30px;
+}
+.gallery {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.gallery-card {
+    margin: 0 10px;
+}
+.gallery-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(6, 6, 37);
+
+}
+.gallery-text {
+    text-align: center;
+    color: rgb(6, 6, 37);
+}
+.about {
+    width: 100%;
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top left;
+}.about h2 {
+    color: white;
+    font-size: 30px;
+    padding: 100px 0 0 100px;
+}
+.about p {
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    padding: 0 300px 100px 100px;
+}
+address {
+    text-align: center;
+    padding: 100px;
+    color: rgb(6, 6, 37);
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: normal;
+}
+.maps iframe {
+    margin: 0 150px;
+}
+.rodape {
+    background-color: rgb(2, 25, 34);
+}
+.rodape p {
+    text-align: center;
+    color: rgb(47, 93, 114);
+    font-weight: bold;
+    padding: 20px;
+}
